@@ -120,7 +120,7 @@ by weights initialization.<br>
 With the first architecture using DenseNet201 we were able to reach an IoU on the test data set of
 77.57%, while with the second architecture using as base model ResNet152V2, we've reached an IoU on the test
 set of 77.61%.
-They are indeed very similar models, also in the metrics acquired and shown in the Figures 7 and 8 below. One
+They are indeed very similar models, also in the metrics acquired and shown in the Figures below. One
 could say that at the cost of slightly worse results it's preferable the model with DenseNet201 as base due to its
 smaller number of parameters with respect to ResNet152V2 which means reduce prediction time and potential
 reduce of further small over fitting.<br><br>
@@ -130,8 +130,8 @@ reduce of further small over fitting.<br><br>
 In the images it's also possible to appreciate the great work done by the regularization techniques by looking at
 the losses.
 
-In the below images it's possible to see the actual segmentation results:<br><br>
-Densenet201            |  Resnet152V2
+In the below images it's possible to see the actual segmentation results with the two different encoder-base models:<br>
+Densenet201 encoder            |  Resnet152V2 encoder
 :-------------------------:|:-------------------------:
 <img src="/results/seg_densenet.png">  |  <img src="/results/seg_resnet.png">
 
