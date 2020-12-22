@@ -123,9 +123,12 @@ set of 77.61%.
 They are indeed very similar models, also in the metrics acquired and shown in the Figures 7 and 8 below. One
 could say that at the cost of slightly worse results it's preferable the model with DenseNet201 as base due to its
 smaller number of parameters with respect to ResNet152V2 which means reduce prediction time and potential
-reduce of further small over fitting.
+reduce of further small over fitting.<br><br>
 ![densenet](/results/densenet.png)
 ![resnet](/results/resnet.png)
+
+In the images it's also possible to appreciate the great work done by the regularization techniques by looking at
+the losses.
 
 Given their really high similarity we tried also to apply a Stacked Ensembling model, using a meta learner to
 be trained in order to have a model assigning the best possible weights to these two models at prediction time.
