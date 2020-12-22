@@ -137,7 +137,7 @@ Densenet201 encoder            |  Resnet152V2 encoder
 
 Given their really high similarity we tried also to apply a Stacked Ensembling model, using a meta learner to
 be trained in order to have a model assigning the best possible weights to these two models at prediction time.
-Unfortunately we only improved the global result on the overall data set to 0.0634313027 but not on the one we
+Unfortunately we only improved the global result on the overall global data set but not on the one we
 chose to specifically train onto.
 
 ## Possible improvements
