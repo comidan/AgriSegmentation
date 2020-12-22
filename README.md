@@ -16,7 +16,7 @@ of the Background class.
 
 Input image             |  Target segmented mask
 :-------------------------:|:-------------------------:
-<img src="/Dataset/Training/Bipbip/Mais/Images/Bipbip_mais_im_01391.jpg" width="256" height="192">  |  <img src="/Dataset/Training/Bipbip/Mais/Masks/Bipbip_mais_im_01391.jpg" width="256" height="192">
+<img src="/Dataset/Training/Bipbip/Mais/Images/Bipbip_mais_im_01391.jpg" width="256" height="192">  |  <img src="/Dataset/Training/Bipbip/Mais/Masks/Bipbip_mais_im_01391.png" width="256" height="192">
 
 The data set was augmented, as shown in the following figures, through default pre-processing functions dependent
 on the model to be used and they were:
