@@ -111,7 +111,6 @@ Moreover, on top of these layers we added Dropout with 0.2 rates to further regu
 fitting together with the L2 regularization applied also to the base model. These values showed to perform better.
 
 ## Initialization
-## Initialization
 For the weight initialization with Xavier Initialization we used GlorotNormal to better initialize weights W and
 letting backpropagation algorithm start in advantage position, given that final result of gradient descent is affected
 by weights initialization.<br>
