@@ -21,8 +21,8 @@ Input image             |  Target segmented mask
 
 The data set was augmented, as shown in the following figures, through default pre-processing functions dependent
 on the model to be used and they were:
-- tensorow.keras.applications.densenet.preprocess input
-- tensorow.keras.applications.resnet.preprocess input
+- tensorow.keras.applications.densenet.preprocess\_input
+- tensorow.keras.applications.resnet.preprocess\_input
 
 While the RGB images were of an original dimension of about 2048x1536, we choose to handle 1024x768 RGB
 images so that we are able to loose the minimum of information from the original, double-sized, input images.
