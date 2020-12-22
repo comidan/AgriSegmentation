@@ -131,6 +131,11 @@ reduce of further small over fitting.<br><br>
 In the images it's also possible to appreciate the great work done by the regularization techniques by looking at
 the losses.
 
+In the below images it's possible to see the actual segmentation results:<br><br>
+Densenet201            |  Resnet152V2
+:-------------------------:|:-------------------------:
+<img src="/results/seg_densenet.png">  |  <img src="/results/seg_resnet.png">
+
 Given their really high similarity we tried also to apply a Stacked Ensembling model, using a meta learner to
 be trained in order to have a model assigning the best possible weights to these two models at prediction time.
 Unfortunately we only improved the global result on the overall data set to 0.0634313027 but not on the one we
