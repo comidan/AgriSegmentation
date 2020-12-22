@@ -117,7 +117,7 @@ by weights initialization.<br>
 ![equation](https://latex.codecogs.com/gif.latex?W%20%5Csim%20%5Cmathcal%7BN%7D%5Cleft%28%5Cmu%3D0%2C%5C%2C%20%5C%3B%5Csigma%5E%7B2%7D%3D%5Cfrac%7B2%7D%7BN_%7Bin%7D%20&plus;%20N_%7Bout%7D%7D%5Cright%29)
 
 ## Results
-With the first architecture using DenseNet201 we were able to reach on CodaLab an IoU on the test data set of
+With the first architecture using DenseNet201 we were able to reach an IoU on the test data set of
 77.57%, while with the second architecture using as base model ResNet152V2, we've reached an IoU on the test
 set of 77.61%.
 They are indeed very similar models, also in the metrics acquired and shown in the Figures 7 and 8 below. One
