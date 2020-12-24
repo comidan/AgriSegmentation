@@ -1,5 +1,5 @@
 # AgriSegmentation
-![tensorflow](https://aleen42.github.io/badges/src/tensorflow.svg) <img src="https://metricsproject.eu/wp-content/uploads/2020/06/flag_yellow_high-272x182.jpg" height="45" width="68"/>
+![tensorflow](https://aleen42.github.io/badges/src/tensorflow.svg) <img src="https://metricsproject.eu/wp-content/uploads/2020/06/flag_yellow_high-272x182.jpg" height="22" width="34"/>
 
 ## Introduction
 [ACRE](https://metricsproject.eu/agri-food/acre-competition/) is the Agri-food Competition for Robot Evaluation, part of the METRICS project funded by the <b>European Union’s Horizon 2020 research and innovation program under grant agreement No 871252</b>. Autonomous robots compete to demonstrate their ability to perform agricultural tasks (such as removing weeds or surveying crops down to individual-plant resolution). At field campaigns, participants collect data that are then made available like the one you are seeing. For more information about ACRE and METRICS visit the [official website](https://metricsproject.eu/agri-food/).
